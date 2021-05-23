@@ -1,0 +1,73 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body {
+	background-color: #2b3e7d;
+	color: #e4e7eb;
+	font-family: 'Roboto Slab', serif;
+}
+
+.mainarea {
+	display: flex;
+	align-items: center;
+	min-height: 100vh;
+	flex-direction: column;
+	border: 5px solid #e4e7eb;
+	border-radius: 25px;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+h1 {
+	margin-bottom: 3em;
+}
+
+.inputarea {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+label, input, button, caption {
+	margin: 0.5em;
+}
+
+button {
+	background-color: #db8816;
+	padding: 15px;
+	color: #e4e7eb;
+	border: none;
+	border-radius: 10px;
+	margin-bottom: 2em;
+}
+
+table {
+	margin-top: 3em;
+	border: 1px solid #e4e7eb;
+	letter-spacing: 1px;
+	border-collapse: collapse;
+}
+
+td, th {
+	border: 1px solid #e4e7eb;
+}
+
+th {
+	padding: 5px;
+}
+
+@media only screen and (max-width: 480px) {
+	.mainarea {
+		min-height: 40vh;
+		max-height: 60vh;
+	}
+	body {
+		font-size: 40rem;
+	}
+}
