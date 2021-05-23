@@ -1,2 +1,2 @@
 # temp-calc
-Celsius to Kelvin
+Simple program to convert celsius to kelvin.
